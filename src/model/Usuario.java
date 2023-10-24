@@ -10,7 +10,7 @@ final class Usuario   extends Pessoa{
 	private String senha;
 	private Date data_cadastro;
 	private boolean habalitado;
-	private boolean hafbalitado;
+	
 
 
 }
