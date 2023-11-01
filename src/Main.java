@@ -1,4 +1,4 @@
-package Principal;
+
 
 import connection.ConnectionFactory;
 import dao.UsuarioDAO;
@@ -10,6 +10,7 @@ public class Main {
 
 		ConnectionFactory conn = new ConnectionFactory();
 		conn.getConnection();
+<<<<<<< HEAD:src/Principal/Main.java
 		
 		cadastrar();
 	}
@@ -26,5 +27,9 @@ private static void cadastrar() {
 		UsuarioDAO ud = new UsuarioDAO();
 		ud.save(u);
 		
+=======
+		//add comment para ver o github
+
+>>>>>>> 2e87b6bbd387d8ba09749d839e57e3174e815ec4:src/Main.java
 	}
 }

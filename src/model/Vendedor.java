@@ -1,5 +1,6 @@
 package model;
 
+<<<<<<< HEAD
 import java.util.Date;
 
 public final class Vendedor extends Pessoa{
@@ -22,4 +23,17 @@ public final class Vendedor extends Pessoa{
 		this.habilitado = habilitado;
 	}
 	
+=======
+import java.sql.Date;
+
+public class Vendedor extends Pessoa {
+
+
+	private int id;
+	private String nome;
+	private String sobrenome;
+	private String senha;
+	private Date data_entrada;
+	private boolean habalitado;
+>>>>>>> 2e87b6bbd387d8ba09749d839e57e3174e815ec4
 }

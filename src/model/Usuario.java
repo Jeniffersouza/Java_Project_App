@@ -1,5 +1,6 @@
 package model;
 
+<<<<<<< HEAD
 import java.util.Date;
 
 public final class Usuario extends Pessoa{
@@ -32,4 +33,19 @@ public final class Usuario extends Pessoa{
 	}
 	
 	
+=======
+import java.sql.Date;
+
+final class Usuario   extends Pessoa{
+	
+	private int id;
+	private String nome;
+	private String sobrenome;
+	private String senha;
+	private Date data_cadastro;
+	private boolean habalitado;
+	
+
+
+>>>>>>> 2e87b6bbd387d8ba09749d839e57e3174e815ec4
 }
