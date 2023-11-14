@@ -48,9 +48,5 @@ public final class Usuario extends Pessoa{
 	}
 	public void setHabilitado(boolean habilitado) {
 		this.habilitado = habilitado;
-	}
-
-	
-	
-	
+	}	
 }
